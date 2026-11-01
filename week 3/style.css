@@ -1,0 +1,50 @@
+/* Task 6.1: Apply border-box to every element */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    color: #1e293b;
+    line-height: 1.6;
+}
+/* Task 6.1: Box model example */
+.box-model-demo {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 2px solid #64748b;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.box-model-demo h2 {
+    margin-top: 0;
+}
+
+.box-model-example {
+    width: 260px;
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 25px;
+    border: 8px solid #2563eb;
+    background-color: #dbeafe;
+    text-align: center;
+}
+
+.box-model-example span {
+    display: block;
+    padding: 10px;
+    background-color: #bfdbfe;
+    font-weight: bold;
+}
+
+.box-model-example small {
+    display: block;
+    margin-top: 8px;
+}
