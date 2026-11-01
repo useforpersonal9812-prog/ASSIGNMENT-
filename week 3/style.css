@@ -176,3 +176,63 @@ body {
     background-color: #f3e8ff;
     color: #7e22ce;
 }
+/* Task 6.5: Fixed circular + button */
+.floating-button {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    z-index: 2000;
+
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+
+    background-color: #2563eb;
+    color: white;
+    font-size: 36px;
+    line-height: 1;
+    cursor: pointer;
+    box-shadow: 0 4px 12px #00000030;
+}
+
+.floating-button:hover {
+    background-color: #1d4ed8;
+}
+
+/* Footer */
+.page-footer {
+    padding: 20px;
+    text-align: center;
+    color: #64748b;
+    font-size: 13px;
+}
+
+/* Responsive layout */
+@media (max-width: 480px) {
+    .top-bar {
+        padding: 12px 15px;
+    }
+
+    .top-bar h2 {
+        font-size: 18px;
+    }
+
+    .top-label {
+        font-size: 11px;
+    }
+
+    .profile-container {
+        padding: 12px;
+        margin: 15px auto;
+    }
+
+    .profile-card {
+        padding: 18px;
+    }
+
+    .floating-button {
+        right: 18px;
+        bottom: 18px;
+    }
+}
