@@ -14,6 +14,38 @@ body {
     color: #1e293b;
     line-height: 1.6;
 }
+/* Task 6.4: Sticky top bar and z-index */
+.top-bar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 25px;
+    background-color: #172554;
+    color: white;
+    box-shadow: 0 3px 10px #00000020;
+}
+
+.top-bar h2 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.top-label {
+    font-size: 13px;
+}
+
+/* Main page layout */
+.profile-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
 /* Task 6.1: Box model example */
 .box-model-demo {
     margin-bottom: 30px;
