@@ -104,3 +104,43 @@ body {
     display: block;
     margin-top: 8px;
 }
+/* Task 6.3: Fixed height and scrolling bio */
+.bio-box {
+    height: 150px;
+    overflow: auto;
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    background-color: white;
+    text-align: left;
+}
+
+.bio-box h3 {
+    margin-top: 0;
+}
+
+.bio-box p {
+    font-size: 14px;
+}
+
+/* Profile skill labels */
+.profile-footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.profile-footer span {
+    padding: 5px 12px;
+    border-radius: 20px;
+    background-color: #dbeafe;
+    color: #1e40af;
+    font-size: 12px;
+}
+
+.card-purple .profile-footer span {
+    background-color: #f3e8ff;
+    color: #7e22ce;
+}
